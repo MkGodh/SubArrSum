@@ -3,7 +3,7 @@
 
 int main()
 {
-    std::vector<int> vec = { -4, 3, 5, -4, 9, 1, -3, -3, 1 };
+    std::vector<int> vec = { -2, 1, -3, 4, -1 ,2 ,1 ,-5 ,4 };
     int max = 0;
     int end = 0;
     int curInd = 0;
@@ -26,4 +26,5 @@ int main()
     std::cout << curInd << " " << curIndTwo;
     return 0;
 }
+
 
